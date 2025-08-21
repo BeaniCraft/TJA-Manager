@@ -1,2 +1,9 @@
-# TJA-Manager
-A hassle free tool to manage .TJAs.
+This project uses the following software:
+
+Tauri
+ 
+Svelte
+Tailwind CSS
+Skeleton UI
+
+Lucide

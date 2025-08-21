@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '$lib/themes/tjamgrtheme.css';
+
+@source '../node_modules/@skeletonlabs/skeleton-svelte/dist';
+
+@font-face {
+   font-family: MochiyPopOne;
+   src: url(lib/fonts/Mochiy_Pop_One/MochiyPopOne-Regular.ttf);
+}
+
+body {
+    font-family: MochiyPopOne;
+    font-size: 14px;
+}
+
+hr {@apply border-primary-400 p-2;}
+
+ul {@apply list-disc list-inside;}
+a {@apply text-primary-400 underline;}
+
+h1 {@apply text-primary-400 mb-3; font-size: 24px;}
+h2 {@apply text-primary-400 mb-3; font-size: 23px;}
+h3 {@apply text-primary-400 mb-3; font-size: 22px;}
+h4 {@apply text-primary-400 mb-3; font-size: 21px;}
+h5 {@apply text-primary-400 mb-3; font-size: 20px;}
+h6 {@apply text-primary-400 mb-3; font-size: 19px;}
+
