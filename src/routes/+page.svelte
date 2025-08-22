@@ -12,7 +12,11 @@
   import { House } from 'lucide-svelte';
   import { Globe } from 'lucide-svelte';
   import { Info } from 'lucide-svelte';
+
+  import { WifiOff } from 'lucide-svelte';
+  
   import { FolderSearch } from 'lucide-svelte';
+  import { RefreshCw } from 'lucide-svelte';
     
   // Navigation state
   let value = $state('home');
@@ -22,8 +26,8 @@
   <!-- Navigation -->
   <Navigation.Rail width="w-[72px]" {value} onValueChange={(newValue) => (value = newValue)}>
     {#snippet header()}
-      <Navigation.Tile label="Home" id="home"><House /></Navigation.Tile>
-      <Navigation.Tile label="Browse" id="browse"><Globe /></Navigation.Tile>
+      <Navigation.Tile label="Home" id="home"><House/></Navigation.Tile>
+      <Navigation.Tile label="Browse" id="browse"><Globe/></Navigation.Tile>
     {/snippet}
     
     {#snippet tiles()}
@@ -31,7 +35,7 @@
     {/snippet}
 
     {#snippet footer()}
-      <Navigation.Tile label="Info" id="info"><Info /></Navigation.Tile>
+      <Navigation.Tile label="Info" id="info"><Info/></Navigation.Tile>
     {/snippet}
   </Navigation.Rail>
   
@@ -40,7 +44,7 @@
     {#if value === "home"}
       <div> 
         <img src={logoUrl} alt="TJAMGR logo" class="mx-auto mb-3">
-
+        
         <hr>
         
         <div class="card p-4 preset-outlined-surface-500">
@@ -55,11 +59,11 @@
     {/if}
       
     {#if value === "browse"}
-      <BrowseTab />
+      <BrowseTab/>
     {/if}
 
     {#if value === "info"}
-      <InfoTab />
+      <InfoTab/>
     {/if}
   </div>
 </div>

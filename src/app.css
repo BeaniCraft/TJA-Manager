@@ -22,9 +22,9 @@ ul {@apply list-disc list-inside;}
 a {@apply text-primary-400 underline;}
 
 h1 {@apply text-primary-400 mb-3; font-size: 24px;}
-h2 {@apply text-primary-400 mb-3; font-size: 23px;}
-h3 {@apply text-primary-400 mb-3; font-size: 22px;}
-h4 {@apply text-primary-400 mb-3; font-size: 21px;}
-h5 {@apply text-primary-400 mb-3; font-size: 20px;}
-h6 {@apply text-primary-400 mb-3; font-size: 19px;}
+h2 {@apply text-primary-400 mb-3; font-size: 22px;}
+h3 {@apply text-primary-400 mb-3; font-size: 20px;}
+h4 {@apply text-primary-400 mb-3; font-size: 19px;}
+h5 {@apply text-primary-400 mb-3; font-size: 18px;}
+h6 {@apply text-primary-400 mb-3; font-size: 17px;}
 

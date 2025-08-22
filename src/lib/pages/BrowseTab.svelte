@@ -1,5 +1,10 @@
 <script>
   import { Tabs } from '@skeletonlabs/skeleton-svelte';
+
+
+  import { Bomb } from 'lucide-svelte';
+  import { RefreshCw } from 'lucide-svelte';
+  import { Download } from 'lucide-svelte';
 </script>
 
 <!-- Content -->
